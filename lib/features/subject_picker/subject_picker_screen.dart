@@ -153,6 +153,13 @@ class _SubjectsGrid extends StatelessWidget {
           active: false,
           onTap: null,
         ),
+        const _SubjectCard(
+          icon: Icons.calculate,
+          label: 'Matematyka',
+          subtitle: 'Wkrótce',
+          active: false,
+          onTap: null,
+        ),
       ],
     );
   }
