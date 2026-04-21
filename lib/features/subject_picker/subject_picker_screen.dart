@@ -28,26 +28,24 @@ class SubjectPickerScreen extends StatelessWidget {
         backgroundColor: Colors.transparent,
         elevation: 0,
         title: const SizedBox.shrink(),
-        leading: IconButton(
-          tooltip: 'O aplikacji',
-          iconSize: 26,
-          icon: const Icon(
-            Icons.info_outline_rounded,
-            color: KidsColors.ink,
+        leadingWidth: 64,
+        leading: Padding(
+          padding: const EdgeInsets.only(left: 12),
+          child: _TopIconTile(
+            icon: Icons.info_outline_rounded,
+            tooltip: 'O aplikacji',
+            onTap: () => _openAbout(context),
           ),
-          onPressed: () => _openAbout(context),
         ),
         actions: [
-          IconButton(
-            tooltip: 'Statystyki',
-            iconSize: 28,
-            icon: const Icon(
-              Icons.bar_chart_rounded,
-              color: KidsColors.ink,
+          Padding(
+            padding: const EdgeInsets.only(right: 12),
+            child: _TopIconTile(
+              icon: Icons.bar_chart_rounded,
+              tooltip: 'Statystyki',
+              onTap: () => context.push(Routes.stats),
             ),
-            onPressed: () => context.push(Routes.stats),
           ),
-          const SizedBox(width: 8),
         ],
       ),
       body: SceneBackdrop(
@@ -142,8 +140,8 @@ class _SubjectsGrid extends StatelessWidget {
           onTap: onOrthography,
         ),
         const _SubjectCard(
-          icon: Icons.calculate,
-          label: 'Matematyka',
+          icon: Icons.text_fields_rounded,
+          label: 'Części mowy',
           subtitle: 'Wkrótce',
           active: false,
           onTap: null,
@@ -155,14 +153,44 @@ class _SubjectsGrid extends StatelessWidget {
           active: false,
           onTap: null,
         ),
-        const _SubjectCard(
-          icon: Icons.palette,
-          label: 'Plastyka',
-          subtitle: 'Wkrótce',
-          active: false,
-          onTap: null,
-        ),
       ],
+    );
+  }
+}
+
+/// Okrągły kafelek ikony w AppBarze — większa niż zwykły IconButton,
+/// z białym półprzezroczystym tłem żeby się wyraźnie odznaczać od
+/// barwnej sceny backgroundu.
+class _TopIconTile extends StatelessWidget {
+  const _TopIconTile({
+    required this.icon,
+    required this.tooltip,
+    required this.onTap,
+  });
+
+  final IconData icon;
+  final String tooltip;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return Tooltip(
+      message: tooltip,
+      child: Material(
+        color: Colors.white.withValues(alpha: 0.85),
+        borderRadius: BorderRadius.circular(14),
+        elevation: 2,
+        shadowColor: Colors.black.withValues(alpha: 0.12),
+        child: InkWell(
+          borderRadius: BorderRadius.circular(14),
+          onTap: onTap,
+          child: SizedBox(
+            width: 48,
+            height: 48,
+            child: Icon(icon, color: KidsColors.ink, size: 26),
+          ),
+        ),
+      ),
     );
   }
 }

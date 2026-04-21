@@ -200,8 +200,8 @@ class _AboutScreenState extends State<AboutScreen> {
                         'Chcę wiedzieć WSZYSTKO — co Ci się podobało, co nie, '
                         'jakie błędy znalazłeś, czego brakuje.\n\n'
                         'Twoja opinia ma realny wpływ na to, co powstanie '
-                        'dalej: jakie sekcje ortograficzne, jakie nowe typy '
-                        'ćwiczeń, co poprawiamy w pierwszej kolejności.',
+                        'dalej: jakie sekcje, jakie nowe typy ćwiczeń, '
+                        'co poprawiamy w pierwszej kolejności.',
                         style: TextStyle(fontSize: 14, height: 1.4),
                       ),
                       const SizedBox(height: 12),

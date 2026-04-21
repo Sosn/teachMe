@@ -10,6 +10,6 @@ void main() {
 
     expect(find.text('Czego chcesz się dziś uczyć?'), findsOneWidget);
     expect(find.text('Ortografia'), findsOneWidget);
-    expect(find.text('Matematyka'), findsOneWidget);
+    expect(find.text('Części mowy'), findsOneWidget);
   });
 }
