@@ -103,14 +103,16 @@ Future<void> main(List<String> argv) async {
     await tempResized.writeAsBytes(img.encodePng(resized));
 
     // 2) cwebp temp.png -> out.webp
+    // Windows Process.run wymaga absolute path do exe.
+    final cwebpAbs = File(_cwebpPath).absolute.path;
     final result = await Process.run(
-      _cwebpPath,
+      cwebpAbs,
       [
         '-q', '$_webpQuality',
         '-alpha_q', '100', // alpha lossless
         '-quiet',
-        tempResized.path,
-        '-o', outWebp.path,
+        tempResized.absolute.path,
+        '-o', outWebp.absolute.path,
       ],
     );
 
