@@ -54,3 +54,8 @@ app.*.map.json
 # cwebp binarka (user dodaje lokalnie, nie commitujemy ~1 MB binarki do repo)
 /tools/webp/
 
+# Android signing (NIGDY nie commituj keystore ani haseł)
+/android/key.properties
+**/*.jks
+**/*.keystore
+

@@ -3,6 +3,8 @@ import 'package:go_router/go_router.dart';
 import 'package:teach_me/app/router.dart';
 import 'package:teach_me/app/theme.dart';
 import 'package:teach_me/features/about/parental_gate.dart';
+import 'package:teach_me/features/mascot/mascot_mood.dart';
+import 'package:teach_me/features/mascot/mascot_view.dart';
 import 'package:teach_me/shared/widgets/scene_background.dart';
 
 /// Root ekran aplikacji — wybór przedmiotu do nauki. W MVP tylko ortografia
@@ -66,8 +68,15 @@ class SubjectPickerScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
+                      const Center(
+                        child: MascotView(
+                          mood: MascotMood.happy,
+                          size: 180,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
                       const _Headline(),
-                      const SizedBox(height: 28),
+                      const SizedBox(height: 24),
                       _SubjectsGrid(
                         onOrthography: () =>
                             context.push(Routes.orthography),

@@ -51,6 +51,34 @@ dev_dependencies:
   # rules and activating additional ones.
   image: ^4.8.0
   very_good_analysis: ^10.2.0
+  flutter_launcher_icons: ^0.14.2
+  flutter_native_splash: ^2.4.0
+
+# Konfiguracja ikony aplikacji (adaptive icon dla Android 8+).
+# Wygenerowanie:  dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/app_icon/jerzy_foreground.png"
+  adaptive_icon_background: "#FFFBF2"
+  adaptive_icon_foreground: "assets/images/app_icon/jerzy_foreground.png"
+  # Padding dla foreground: 108dp w 192dp canvas = ~44% safe zone.
+  # Wrappujemy obrazek w ~20% margines, żeby maska systemowa (okrągła
+  # lub squircle) nie obcięła maskotki.
+  adaptive_icon_foreground_inset: 20
+  min_sdk_android: 21
+
+# Splash screen — krótki ekran startowy z jeżem i kolorem cream.
+# Wygenerowanie:  dart run flutter_native_splash:create
+flutter_native_splash:
+  color: "#FFFBF2"
+  image: "assets/images/app_icon/jerzy_foreground.png"
+  android: true
+  ios: false
+  web: false
+  android_12:
+    color: "#FFFBF2"
+    image: "assets/images/app_icon/jerzy_foreground.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
