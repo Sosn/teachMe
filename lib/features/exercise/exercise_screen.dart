@@ -111,18 +111,46 @@ class _ActiveSession extends StatelessWidget {
     return Stack(
       children: [
         Padding(
-          padding: const EdgeInsets.fromLTRB(16, 8, 16, 16),
+          // Top padding bumped from 8 → 16 żeby zostawić miejsce nad
+          // kartą dla wystającej maskotki (siedzi na górnej krawędzi).
+          padding: const EdgeInsets.fromLTRB(16, 16, 16, 16),
           child: Center(
             child: ConstrainedBox(
               constraints: const BoxConstraints(maxWidth: 460),
-              child: _ExerciseCard(child: exerciseWidget),
+              child: LayoutBuilder(
+                builder: (context, constraints) {
+                  // Mascot proporcjonalnie do szerokości karty — referencja:
+                  // Xiaomi 12 (~411dp width → karta ~379dp → mascot ~129px),
+                  // co odpowiada obecnemu wyglądowi 132px. Cap na 160 dla
+                  // tabletów (karta ma maxWidth 460).
+                  final mascotSize =
+                      (constraints.maxWidth * 0.34).clamp(110.0, 160.0);
+                  // 70% maskotki nad krawędzią karty, 30% wchodzi w kartę.
+                  final cardTopOffset = mascotSize * 0.7;
+                  return Stack(
+                    clipBehavior: Clip.none, // mascot wystaje nad Stack
+                    children: [
+                      Padding(
+                        padding: EdgeInsets.only(top: cardTopOffset),
+                        child: _ExerciseCard(
+                          // Większy padding-top w karcie żeby polecenie nie
+                          // wchodziło pod łapki jeża (30% maskotki w karcie
+                          // = mascotSize * 0.3, plus mały odstęp).
+                          topPadding: mascotSize * 0.3 + 8,
+                          child: exerciseWidget,
+                        ),
+                      ),
+                      Positioned(
+                        top: 0,
+                        right: 12,
+                        child: MascotView(mood: mood, size: mascotSize),
+                      ),
+                    ],
+                  );
+                },
+              ),
             ),
           ),
-        ),
-        Positioned(
-          top: 4,
-          right: 12,
-          child: MascotView(mood: mood, size: 132),
         ),
         if (state.isAnswered)
           const Positioned(
@@ -140,14 +168,15 @@ class _ActiveSession extends StatelessWidget {
 }
 
 class _ExerciseCard extends StatelessWidget {
-  const _ExerciseCard({required this.child});
+  const _ExerciseCard({required this.child, this.topPadding = 24});
 
   final Widget child;
+  final double topPadding;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 24),
+      padding: EdgeInsets.fromLTRB(20, topPadding, 20, 24),
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: 0.5),
         borderRadius: BorderRadius.circular(28),

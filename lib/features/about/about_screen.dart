@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
+import 'package:teach_me/app/router.dart';
 import 'package:teach_me/app/theme.dart';
 import 'package:teach_me/features/mascot/mascot_mood.dart';
 import 'package:teach_me/features/mascot/mascot_view.dart';
@@ -32,6 +33,25 @@ class _AboutScreenState extends State<AboutScreen> {
   static const String _appVersion = '0.5 (beta)';
 
   final TextEditingController _feedbackController = TextEditingController();
+
+  /// Licznik tapów na nagłówku "JerzyUczy" — 5 tapów otwiera debug
+  /// screen z audytem wszystkich słów. Reset po 2s bez tapów.
+  int _titleTapCount = 0;
+  DateTime _lastTitleTap = DateTime.fromMillisecondsSinceEpoch(0);
+
+  void _onTitleTap() {
+    final now = DateTime.now();
+    if (now.difference(_lastTitleTap).inSeconds > 2) {
+      _titleTapCount = 1;
+    } else {
+      _titleTapCount += 1;
+    }
+    _lastTitleTap = now;
+    if (_titleTapCount >= 5) {
+      _titleTapCount = 0;
+      context.push(Routes.devWordAudit);
+    }
+  }
 
   @override
   void dispose() {
@@ -157,12 +177,19 @@ class _AboutScreenState extends State<AboutScreen> {
                     children: [
                       const MascotView(mood: MascotMood.happy, size: 130),
                       const SizedBox(height: 6),
-                      const Text(
-                        'JerzyUczy',
-                        style: TextStyle(
-                          fontSize: 28,
-                          fontWeight: FontWeight.w900,
-                          color: KidsColors.ink,
+                      // 5 tapów na ten tytuł → debug screen audytu słów.
+                      // Behavior.opaque żeby cały obszar Texta przyjmował
+                      // tapy (a nie tylko piksele liter).
+                      GestureDetector(
+                        behavior: HitTestBehavior.opaque,
+                        onTap: _onTitleTap,
+                        child: const Text(
+                          'JerzyUczy',
+                          style: TextStyle(
+                            fontSize: 28,
+                            fontWeight: FontWeight.w900,
+                            color: KidsColors.ink,
+                          ),
                         ),
                       ),
                       Text(

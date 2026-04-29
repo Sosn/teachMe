@@ -54,6 +54,10 @@ app.*.map.json
 # cwebp binarka (user dodaje lokalnie, nie commitujemy ~1 MB binarki do repo)
 /tools/webp/
 
+# Surowe JPG-i z generatora obrazków (źródło dla WebP w assets/images/words/)
+# Po konwersji nie potrzebne w repo. Trzymane lokalnie jako backup.
+/tools/new_images/
+
 # Android signing (NIGDY nie commituj keystore ani haseł)
 /android/key.properties
 **/*.jks

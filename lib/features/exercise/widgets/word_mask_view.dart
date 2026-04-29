@@ -44,10 +44,18 @@ class WordMaskView extends StatelessWidget {
         );
       }
     }
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      mainAxisSize: MainAxisSize.min,
-      children: children,
+    // FittedBox: długie słowa (np. "włóczęga", "przyjaciółka") z fontem
+    // 64 i slotami 56px nie zmieszczą się na typowym telefonie. scaleDown
+    // proporcjonalnie zmniejsza całą maskę zachowując proporcje liter.
+    // Krótkie słowa (do ~7 liter) pozostają w naturalnym rozmiarze.
+    return FittedBox(
+      fit: BoxFit.scaleDown,
+      alignment: Alignment.center,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisSize: MainAxisSize.min,
+        children: children,
+      ),
     );
   }
 }

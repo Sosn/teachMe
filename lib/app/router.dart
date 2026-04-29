@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:teach_me/core/content/orthography_topic.dart';
 import 'package:teach_me/features/about/about_screen.dart';
 import 'package:teach_me/features/category_picker/category_picker_screen.dart';
+import 'package:teach_me/features/dev/word_audit_screen.dart';
 import 'package:teach_me/features/exercise/exercise_screen.dart';
 import 'package:teach_me/features/stats/stats_screen.dart';
 import 'package:teach_me/features/subject_picker/subject_picker_screen.dart';
@@ -23,6 +24,10 @@ class Routes {
 
   /// Ekran "O aplikacji" — wejście tylko po parental gate.
   static const about = '/about';
+
+  /// Debug-only — audyt wszystkich słów. Dostęp przez 5 tapów na
+  /// nagłówku "JerzyUczy" w O aplikacji. Nie linkowane z menu.
+  static const devWordAudit = '/dev/words';
 }
 
 final routerProvider = Provider<GoRouter>((ref) {
@@ -52,6 +57,10 @@ final routerProvider = Provider<GoRouter>((ref) {
       GoRoute(
         path: Routes.about,
         builder: (context, state) => const AboutScreen(),
+      ),
+      GoRoute(
+        path: Routes.devWordAudit,
+        builder: (context, state) => const WordAuditScreen(),
       ),
     ],
   );

@@ -128,10 +128,17 @@ class _DragMaskView extends StatelessWidget {
         );
       }
     }
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      mainAxisSize: MainAxisSize.min,
-      children: children,
+    // FittedBox: długie słowa (np. "włóczęga", "chrząszcz") z fontem 56
+    // i drop-slotem 78px łatwo wylewają się z kafla. scaleDown proporcjonalnie
+    // zmniejsza całą maskę. Krótkie słowa pozostają w naturalnym rozmiarze.
+    return FittedBox(
+      fit: BoxFit.scaleDown,
+      alignment: Alignment.center,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisSize: MainAxisSize.min,
+        children: children,
+      ),
     );
   }
 }
