@@ -57,7 +57,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chata — domek z drewna",
+      "example_hint": "chata — ch na początku, do zapamiętania",
       "difficulty": 1,
       "image_asset": "assets/images/words/chata.webp",
       "example_sentence": "W samym środku lasu stoi mała drewniana chata."
@@ -69,7 +69,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chusta na głowę — przez ch",
+      "example_hint": "chusta — ch na początku, do zapamiętania",
       "difficulty": 2,
       "image_asset": "assets/images/words/chusta.webp",
       "example_sentence": "Kolorowa kwiecista chusta leży na stole babci codziennie."
@@ -81,7 +81,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "choinka — świąteczne drzewko",
+      "example_hint": "choinka — ch na początku, do zapamiętania",
       "difficulty": 1,
       "image_asset": "assets/images/words/choinka.webp",
       "example_sentence": "Zielona pachnąca choinka stoi w salonie na święta."
@@ -93,7 +93,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chomik — zwierzątko",
+      "example_hint": "chomik — ch na początku, do zapamiętania",
       "difficulty": 1,
       "image_asset": "assets/images/words/chomik.webp",
       "example_sentence": "Mój mały chomik lubi jeść świeżą chrupiącą marchewkę."
@@ -261,7 +261,7 @@
       "correct": "h",
       "distractor": "ch",
       "rule": "h_wymiana",
-      "example_hint": "błahy → błagać (h → g)",
+      "example_hint": "błahy → błazen (h → z)",
       "difficulty": 3,
       "example_sentence": "To naprawdę drobny i błahy problem w porównaniu.",
       "image_asset": "assets/images/words/blahy.webp"
@@ -549,7 +549,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "schody — ch w środku",
+      "example_hint": "schody — ch po literze s",
       "difficulty": 3,
       "image_asset": "assets/images/words/schody.webp",
       "example_sentence": "Wysokie drewniane schody prowadzą na piętro naszego starego domu."

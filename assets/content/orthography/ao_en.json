@@ -92,8 +92,8 @@
       "mask": "pi_ty",
       "correct": "ą",
       "distractor": "on",
-      "rule": "ao_nosowka",
-      "example_hint": "piąty — nosówka ą",
+      "rule": "ao_wymiana_ea",
+      "example_hint": "piąty → pięć (ą → ę)",
       "difficulty": 2,
       "example_sentence": "Dziś jest już piąty dzień naszej wakacyjnej podróży.",
       "image_asset": "assets/images/words/piaty.webp"
@@ -104,8 +104,8 @@
       "mask": "w_ski",
       "correct": "ą",
       "distractor": "on",
-      "rule": "ao_nosowka",
-      "example_hint": "wąski — nosówka ą",
+      "rule": "ao_wymiana_ea",
+      "example_hint": "wąski → węższy (ą → ę)",
       "difficulty": 2,
       "example_sentence": "Przez wąski leśny chodnik idą wędrowcy w butach.",
       "image_asset": "assets/images/words/waski.webp"
@@ -165,7 +165,7 @@
       "correct": "ę",
       "distractor": "en",
       "rule": "ao_wymiana_ea",
-      "example_hint": "księga → księgi",
+      "example_hint": "księga → ksiąg (ę → ą)",
       "difficulty": 2,
       "image_asset": "assets/images/words/ksiega.webp",
       "example_sentence": "Gruba drewniana księga leży na półce w bibliotece."
@@ -308,8 +308,8 @@
       "mask": "gał_ź",
       "correct": "ą",
       "distractor": "on",
-      "rule": "ao_nosowka",
-      "example_hint": "gałąź — nosówka ą",
+      "rule": "ao_wymiana_ea",
+      "example_hint": "gałąź → gałęzie (ą → ę)",
       "difficulty": 3,
       "image_asset": "assets/images/words/galaz.webp",
       "example_sentence": "Gruba gałąź dębu uschła po ciężkiej zimowej burzy wieczornej."

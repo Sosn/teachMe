@@ -399,8 +399,8 @@
       "mask": "ja_ębina",
       "correct": "rz",
       "distractor": "ż",
-      "rule": "rz_po_spolgl",
-      "example_hint": "jarzębina — rz po j",
+      "rule": "rz_podstawowe",
+      "example_hint": "jarzębina — rz w środku wyrazu, do zapamiętania",
       "difficulty": 4,
       "image_asset": "assets/images/words/jarzebina.webp",
       "example_sentence": "Czerwona jarzębina ozdabia polski las późną jesienią."
@@ -411,8 +411,8 @@
       "mask": "wa_ywa",
       "correct": "rz",
       "distractor": "ż",
-      "rule": "rz_po_spolgl",
-      "example_hint": "warzywa — rz po w",
+      "rule": "rz_podstawowe",
+      "example_hint": "warzywa — rz w środku wyrazu, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/warzywa.webp",
       "example_sentence": "Świeże warzywa leżą w drewnianym koszyku na kuchennym stole."
@@ -760,7 +760,7 @@
       "correct": "ż",
       "distractor": "rz",
       "rule": "z_wymiana",
-      "example_hint": "ważka → waga (ż → g)",
+      "example_hint": "ważka — od „ważyć\", ż wymienia się na g (waga)",
       "difficulty": 3,
       "image_asset": "assets/images/words/wazka.webp",
       "example_sentence": "Niebieska ważka lata szybko nad spokojnym leśnym małym stawem."
@@ -855,8 +855,8 @@
       "mask": "tchó_",
       "correct": "rz",
       "distractor": "ż",
-      "rule": "rz_po_spolgl",
-      "example_hint": "tchórz — rz po ch",
+      "rule": "rz_podstawowe",
+      "example_hint": "tchórz — rz na końcu wyrazu, do zapamiętania",
       "difficulty": 4,
       "image_asset": "assets/images/words/tchorz.webp",
       "example_sentence": "Mały brązowy tchórz biegnie szybko przez ciemny las wieczorem."
