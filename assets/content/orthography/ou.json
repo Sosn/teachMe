@@ -249,7 +249,7 @@
       "correct": "u",
       "distractor": "ó",
       "rule": "u_podstawowe",
-      "example_hint": "piszemy przez u",
+      "example_hint": "kula — u w środku wyrazu, do zapamiętania",
       "difficulty": 1,
       "image_asset": "assets/images/words/kula.webp",
       "example_sentence": "Wielka kolorowa kula toczy się po drewnianej podłodze."
@@ -261,7 +261,7 @@
       "correct": "u",
       "distractor": "ó",
       "rule": "u_podstawowe",
-      "example_hint": "piszemy przez u",
+      "example_hint": "chmura — u w środku wyrazu, do zapamiętania",
       "difficulty": 1,
       "image_asset": "assets/images/words/chmura.webp",
       "example_sentence": "Po niebie leniwie płynie mała biała chmura."
@@ -273,7 +273,7 @@
       "correct": "u",
       "distractor": "ó",
       "rule": "u_podstawowe",
-      "example_hint": "piszemy przez u",
+      "example_hint": "buty — u w środku wyrazu, do zapamiętania",
       "difficulty": 1,
       "image_asset": "assets/images/words/buty.webp",
       "example_sentence": "Moje nowe zimowe buty są ciepłe i wygodne."
@@ -344,8 +344,8 @@
       "mask": "kł_tnia",
       "correct": "ó",
       "distractor": "u",
-      "rule": "ou_wymiana_o",
-      "example_hint": "kłótnia → kłócić się",
+      "rule": "ou_wyjatek",
+      "example_hint": "kłótnia — pisownia do zapamiętania",
       "difficulty": 3,
       "example_sentence": "Krótka kłótnia między siostrami szybko skończyła się pogodzeniem.",
       "image_asset": "assets/images/words/klotnia.webp"
@@ -356,8 +356,8 @@
       "mask": "sp_źnić",
       "correct": "ó",
       "distractor": "u",
-      "rule": "ou_wymiana_o",
-      "example_hint": "spóźnić → spóźniony",
+      "rule": "ou_wyjatek",
+      "example_hint": "spóźnić — pisownia do zapamiętania",
       "difficulty": 3,
       "example_sentence": "Nie chcę spóźnić się dzisiaj na ważną klasówkę.",
       "image_asset": "assets/images/words/spoznic.webp"
@@ -440,8 +440,8 @@
       "mask": "pszcz_łka",
       "correct": "ó",
       "distractor": "u",
-      "rule": "ou_wyjatek",
-      "example_hint": "pszczółka — ó do zapamiętania",
+      "rule": "ou_wymiana_o",
+      "example_hint": "pszczółka → pszczoła (ó → o)",
       "difficulty": 3,
       "image_asset": "assets/images/words/pszczolka.webp",
       "example_sentence": "Pracowita pszczółka zbiera słodki nektar z kwiatów w ogrodzie."
@@ -500,8 +500,8 @@
       "mask": "ł_dź",
       "correct": "ó",
       "distractor": "u",
-      "rule": "ou_wyjatek",
-      "example_hint": "łódź — ó do zapamiętania",
+      "rule": "ou_wymiana_o",
+      "example_hint": "łódź → łodzie (ó → o)",
       "difficulty": 3,
       "image_asset": "assets/images/words/lodz.webp",
       "example_sentence": "Drewniana łódź rybacka kołysze się cicho na spokojnej wodzie."
@@ -512,8 +512,8 @@
       "mask": "mi_d",
       "correct": "ó",
       "distractor": "u",
-      "rule": "ou_wyjatek",
-      "example_hint": "miód — ó do zapamiętania",
+      "rule": "ou_wymiana_o",
+      "example_hint": "miód → miody (ó → o)",
       "difficulty": 2,
       "image_asset": "assets/images/words/miod.webp",
       "example_sentence": "Słodki złoty miód kapie powoli z łyżki do szklanki."
@@ -536,8 +536,8 @@
       "mask": "wr_g",
       "correct": "ó",
       "distractor": "u",
-      "rule": "ou_wyjatek",
-      "example_hint": "wróg — ó do zapamiętania",
+      "rule": "ou_wymiana_o",
+      "example_hint": "wróg → wrogowie (ó → o)",
       "difficulty": 4,
       "example_sentence": "Najgroźniejszy wróg rycerza ukrywał się w ciemnym lesie.",
       "image_asset": "assets/images/words/wrog.webp"
@@ -548,8 +548,8 @@
       "mask": "b_br",
       "correct": "ó",
       "distractor": "u",
-      "rule": "ou_wyjatek",
-      "example_hint": "bóbr — ó do zapamiętania",
+      "rule": "ou_wymiana_o",
+      "example_hint": "bóbr → bobry (ó → o)",
       "difficulty": 3,
       "image_asset": "assets/images/words/bobr.webp",
       "example_sentence": "Pracowity bóbr buduje drewnianą tamę na leśnej rzece."
@@ -632,8 +632,8 @@
       "mask": "gł_wka",
       "correct": "ó",
       "distractor": "u",
-      "rule": "ou_wyjatek",
-      "example_hint": "główka — ó do zapamiętania",
+      "rule": "ou_wymiana_o",
+      "example_hint": "główka → głowa (ó → o)",
       "difficulty": 2,
       "image_asset": "assets/images/words/glowka.webp",
       "example_sentence": "Kolorowa główka czerwonej róży zwiesza się pod ciężarem rosy."
@@ -644,8 +644,8 @@
       "mask": "pł_tno",
       "correct": "ó",
       "distractor": "u",
-      "rule": "ou_wymiana_o",
-      "example_hint": "płótno → płótna (ó → o)",
+      "rule": "ou_wyjatek",
+      "example_hint": "płótno — pisownia do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/plotno.webp",
       "example_sentence": "Białe lniane płótno rozłożone jest na kuchennym stole babci."
@@ -716,8 +716,8 @@
       "mask": "ch_r",
       "correct": "ó",
       "distractor": "u",
-      "rule": "ou_wymiana_o",
-      "example_hint": "chór → chorał (ó → o)",
+      "rule": "ou_wyjatek",
+      "example_hint": "chór — pisownia do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/chor.webp",
       "example_sentence": "Cały szkolny chór pięknie śpiewa na corocznym wiosennym koncercie."
@@ -753,7 +753,7 @@
       "correct": "ó",
       "distractor": "u",
       "rule": "ou_wymiana_o",
-      "example_hint": "nóżka → nogi (ó → o)",
+      "example_hint": "nóżka → noga (ó → o)",
       "difficulty": 2,
       "image_asset": "assets/images/words/nozka.webp",
       "example_sentence": "Mała nóżka mojej młodszej siostry zmieściła się w skarpecie."
@@ -765,7 +765,7 @@
       "correct": "ó",
       "distractor": "u",
       "rule": "ou_wymiana_o",
-      "example_hint": "kółko → koła (ó → o)",
+      "example_hint": "kółko → koło (ó → o)",
       "difficulty": 2,
       "image_asset": "assets/images/words/kolko.webp",
       "example_sentence": "Czerwone kółko rowerowe leży oparte o drewnianą starą ścianę."
@@ -897,7 +897,7 @@
       "correct": "u",
       "distractor": "ó",
       "rule": "u_podstawowe",
-      "example_hint": "kubek — piszemy u",
+      "example_hint": "kubek — u w środku wyrazu, do zapamiętania",
       "difficulty": 1,
       "image_asset": "assets/images/words/kubek.webp",
       "example_sentence": "Biały porcelanowy kubek z gorącą herbatą stoi na stole."
@@ -909,7 +909,7 @@
       "correct": "u",
       "distractor": "ó",
       "rule": "u_podstawowe",
-      "example_hint": "ul — piszemy u",
+      "example_hint": "ul — u na początku wyrazu",
       "difficulty": 2,
       "image_asset": "assets/images/words/ul.webp",
       "example_sentence": "Drewniany pszczeli ul stoi na polanie obok kwitnącej łąki."
@@ -921,7 +921,7 @@
       "correct": "u",
       "distractor": "ó",
       "rule": "u_podstawowe",
-      "example_hint": "muszla — piszemy u",
+      "example_hint": "muszla — u w środku wyrazu, do zapamiętania",
       "difficulty": 1,
       "image_asset": "assets/images/words/muszla.webp",
       "example_sentence": "Różowa morska muszla leży na piasku naszej ulubionej plaży."
@@ -933,7 +933,7 @@
       "correct": "u",
       "distractor": "ó",
       "rule": "u_podstawowe",
-      "example_hint": "lustro — piszemy u",
+      "example_hint": "lustro — u w środku wyrazu, do zapamiętania",
       "difficulty": 1,
       "image_asset": "assets/images/words/lustro.webp",
       "example_sentence": "Duże owalne lustro wisi wysoko na ścianie naszej łazienki."
@@ -945,7 +945,7 @@
       "correct": "u",
       "distractor": "ó",
       "rule": "u_podstawowe",
-      "example_hint": "lupa — piszemy u",
+      "example_hint": "lupa — u w środku wyrazu, do zapamiętania",
       "difficulty": 1,
       "image_asset": "assets/images/words/lupa.webp",
       "example_sentence": "Mała okrągła lupa powiększa małe literki w starej książce."
@@ -957,7 +957,7 @@
       "correct": "u",
       "distractor": "ó",
       "rule": "u_podstawowe",
-      "example_hint": "truskawka — piszemy u",
+      "example_hint": "truskawka — u w środku wyrazu, do zapamiętania",
       "difficulty": 2,
       "image_asset": "assets/images/words/truskawka.webp",
       "example_sentence": "Słodka dojrzała truskawka pachnie letnim ciepłym słońcem."
@@ -969,7 +969,7 @@
       "correct": "u",
       "distractor": "ó",
       "rule": "u_podstawowe",
-      "example_hint": "kukurydza — piszemy u",
+      "example_hint": "kukurydza — u w środku wyrazu, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/kukurydza.webp",
       "example_sentence": "Złota dojrzała kukurydza rośnie wysoko na ogromnym letnim polu."
