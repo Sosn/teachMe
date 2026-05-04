@@ -111,9 +111,11 @@ class _ActiveSession extends StatelessWidget {
     return Stack(
       children: [
         Padding(
-          // Top padding bumped from 8 → 16 żeby zostawić miejsce nad
-          // kartą dla wystającej maskotki (siedzi na górnej krawędzi).
-          padding: const EdgeInsets.fromLTRB(16, 16, 16, 16),
+          // Top: 16 zostawia miejsce nad kartą dla wystającej maskotki.
+          // Bottom: 50 — rezerwa pod system gesture bar (Android nav)
+          // żeby tekst regułki/feedback z dołu karty nie chował się
+          // za pasekiem gestowym (zgłoszone na MIUI / Samsung One UI).
+          padding: const EdgeInsets.fromLTRB(16, 16, 16, 50),
           child: Center(
             child: ConstrainedBox(
               constraints: const BoxConstraints(maxWidth: 460),
