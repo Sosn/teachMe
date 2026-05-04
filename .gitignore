@@ -57,6 +57,7 @@ app.*.map.json
 # Surowe JPG-i z generatora obrazków (źródło dla WebP w assets/images/words/)
 # Po konwersji nie potrzebne w repo. Trzymane lokalnie jako backup.
 /tools/new_images/
+/tools/new_images_v2/
 
 # Android signing (NIGDY nie commituj keystore ani haseł)
 /android/key.properties
