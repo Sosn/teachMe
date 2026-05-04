@@ -284,8 +284,8 @@
       "mask": "m_żczyzna",
       "correct": "ę",
       "distractor": "en",
-      "rule": "ao_nosowka",
-      "example_hint": "mężczyzna — nosówka ę",
+      "rule": "ao_wymiana_ea",
+      "example_hint": "mężczyzna → mąż (ę → ą)",
       "difficulty": 4,
       "example_sentence": "Wysoki mężczyzna w czarnym kapeluszu idzie spokojnie ulicą w deszczu.",
       "image_asset": "assets/images/words/mezczyzna.webp"
@@ -848,8 +848,8 @@
       "mask": "r_czka",
       "correct": "ą",
       "distractor": "on",
-      "rule": "ao_nosowka",
-      "example_hint": "rączka — nosówka ą",
+      "rule": "ao_wymiana_ea",
+      "example_hint": "rączka → ręka (ą → ę)",
       "difficulty": 3,
       "image_asset": "assets/images/words/raczka.webp",
       "example_sentence": "Mała złota rączka drzwi do szafki błyszczy w porannym słońcu."
