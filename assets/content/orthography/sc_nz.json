@@ -345,7 +345,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ściana — ś przed c",
+      "example_hint": "ściana — ś przed c (gdzie „ci\" = miękkie ć)",
       "difficulty": 3,
       "image_asset": "assets/images/words/sciana.webp",
       "example_sentence": "Biała ściana naszego domu pokryta jest kolorowymi obrazami rodzinnymi."
@@ -357,7 +357,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ścierka — ś przed c",
+      "example_hint": "ścierka — ś przed c (gdzie „ci\" = miękkie ć)",
       "difficulty": 3,
       "image_asset": "assets/images/words/scierka.webp",
       "example_sentence": "Mokra ścierka leży zwinięta na metalowym blacie kuchennego zlewu."
@@ -585,7 +585,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ścieg — ś przed c",
+      "example_hint": "ścieg — ś przed c (gdzie „ci\" = miękkie ć)",
       "difficulty": 4,
       "image_asset": "assets/images/words/scieg.webp",
       "example_sentence": "Równy ścieg biegnie prosto po białej tkaninie w rękach babci."
@@ -597,7 +597,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ściółka — ś przed c",
+      "example_hint": "ściółka — ś przed c (gdzie „ci\" = miękkie ć)",
       "difficulty": 4,
       "image_asset": "assets/images/words/sciolka.webp",
       "example_sentence": "Sucha brązowa ściółka pokrywa leśną ziemię pod wysokimi jodłami."

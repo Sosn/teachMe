@@ -57,7 +57,7 @@
       "correct": "ą",
       "distractor": "om",
       "rule": "ao_przed_pb",
-      "example_hint": "przed b piszemy ą",
+      "example_hint": "trąba — ą przed b",
       "difficulty": 2,
       "image_asset": "assets/images/words/traba.webp",
       "example_sentence": "Ogromna trąba słonia sięgała aż do ziemi."
@@ -81,7 +81,7 @@
       "correct": "ą",
       "distractor": "on",
       "rule": "ao_wymiana_ea",
-      "example_hint": "gąska → gęsi (ą → ę)",
+      "example_hint": "gąska → gęś (ą → ę)",
       "difficulty": 2,
       "image_asset": "assets/images/words/gaska.webp",
       "example_sentence": "Pulchna biała gąska stoi przy wiejskim stawie."
@@ -141,7 +141,7 @@
       "correct": "ę",
       "distractor": "em",
       "rule": "ao_przed_pb",
-      "example_hint": "przed b piszemy ę",
+      "example_hint": "zęby — ę przed b",
       "difficulty": 1,
       "image_asset": "assets/images/words/zeby.webp",
       "example_sentence": "Białe równe zęby błyszczą w szerokim uśmiechu dziecka."
@@ -261,7 +261,7 @@
       "correct": "ą",
       "distractor": "om",
       "rule": "ao_przed_pb",
-      "example_hint": "gołąb — przed b piszemy ą",
+      "example_hint": "gołąb — ą przed b",
       "difficulty": 3,
       "example_sentence": "Szary miejski gołąb usiadł na parapecie naszego kuchennego okna.",
       "image_asset": "assets/images/words/golab.webp"
