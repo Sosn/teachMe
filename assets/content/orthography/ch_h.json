@@ -9,7 +9,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "ch na początku słowa",
+      "example_hint": "chleb — ch na początku, do zapamiętania",
       "difficulty": 1,
       "image_asset": "assets/images/words/chleb.webp",
       "example_sentence": "Świeży pachnący chleb leży na dużym kuchennym stole."
@@ -33,7 +33,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "kuchnia — ch w środku",
+      "example_hint": "kuchnia — ch w środku wyrazu, do zapamiętania",
       "difficulty": 2,
       "image_asset": "assets/images/words/kuchnia.webp",
       "example_sentence": "Nasza kuchnia pachnie świeżo upieczonym ciastem jabłkowym."
@@ -45,7 +45,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "ch w środku słowa",
+      "example_hint": "kocha — ch w środku wyrazu, do zapamiętania",
       "difficulty": 1,
       "image_asset": "assets/images/words/kocha.webp",
       "example_sentence": "Moja mama bardzo kocha wszystkie swoje małe dzieci."
@@ -285,7 +285,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chrabąszcz — ch na początku",
+      "example_hint": "chrabąszcz — ch na początku, do zapamiętania",
       "difficulty": 3,
       "example_sentence": "Brązowy chrabąszcz siedzi na jasnym zielonym liściu.",
       "image_asset": "assets/images/words/chrabaszcz.webp"
@@ -309,7 +309,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chrząszcz — ch na początku",
+      "example_hint": "chrząszcz — ch na początku, do zapamiętania",
       "difficulty": 4,
       "example_sentence": "Wielki brązowy chrząszcz bzyczy głośno w letniej zielonej łące.",
       "image_asset": "assets/images/words/chrzaszcz.webp"
@@ -321,7 +321,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chłopiec — ch na początku",
+      "example_hint": "chłopiec — ch na początku, do zapamiętania",
       "difficulty": 2,
       "image_asset": "assets/images/words/chlopiec.webp",
       "example_sentence": "Wesoły chłopiec biegnie z piłką przez zielone boisko szkolne."
@@ -333,7 +333,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chochla — ch na początku",
+      "example_hint": "chochla — ch na początku, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/chochla.webp",
       "example_sentence": "Drewniana chochla wisi na kuchennym haczyku obok patelni."
@@ -345,7 +345,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "choroba — ch na początku",
+      "example_hint": "choroba — ch na początku, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/choroba.webp",
       "example_sentence": "Przeziębienie i choroba zatrzymały mnie w łóżku na cały tydzień."
@@ -357,7 +357,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chryzantema — ch na początku",
+      "example_hint": "chryzantema — ch na początku, do zapamiętania",
       "difficulty": 4,
       "image_asset": "assets/images/words/chryzantema.webp",
       "example_sentence": "Różowa chryzantema pięknie kwitnie w naszym jesiennym ogrodzie."
@@ -369,7 +369,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chmiel — ch na początku",
+      "example_hint": "chmiel — ch na początku, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/chmiel.webp",
       "example_sentence": "Zielony chmiel rośnie pnąc się wysoko po drewnianej konstrukcji."
@@ -381,7 +381,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chlew — ch na początku",
+      "example_hint": "chlew — ch na początku, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/chlew.webp",
       "example_sentence": "Drewniany chlew stoi za wiejską stodołą naszego dziadka."
@@ -393,7 +393,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "pchła — ch w środku",
+      "example_hint": "pchła — ch w środku wyrazu, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/pchla.webp",
       "example_sentence": "Mała pchła skacze wysoko z miękkiej sierści wesołego psa."
@@ -405,7 +405,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chabry — ch na początku",
+      "example_hint": "chabry — ch na początku, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/chabry.webp",
       "example_sentence": "Niebieskie chabry rosną dziko na brzegu letniego pszennego pola."
@@ -417,7 +417,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "rachunek — ch w środku",
+      "example_hint": "rachunek — ch w środku wyrazu, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/rachunek.webp",
       "example_sentence": "Długi rachunek ze sklepu leży na stole kuchennym wieczorem."
@@ -429,7 +429,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "wachlarz — ch w środku",
+      "example_hint": "wachlarz — ch w środku wyrazu, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/wachlarz.webp",
       "example_sentence": "Kolorowy wachlarz chłodzi mamę w upalny letni dzień."
@@ -441,7 +441,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chochlik — ch na początku",
+      "example_hint": "chochlik — ch na początku, do zapamiętania",
       "difficulty": 4,
       "image_asset": "assets/images/words/chochlik.webp",
       "example_sentence": "Mały psotny chochlik chowa skarpetki w naszej szafie nocą."
@@ -453,7 +453,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chusteczka — ch na początku",
+      "example_hint": "chusteczka — ch na początku, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/chusteczka.webp",
       "example_sentence": "Biała papierowa chusteczka wystaje z kolorowego kartonowego pudełka."
@@ -465,7 +465,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chodnik — ch na początku",
+      "example_hint": "chodnik — ch na początku, do zapamiętania",
       "difficulty": 2,
       "image_asset": "assets/images/words/chodnik.webp",
       "example_sentence": "Szary betonowy chodnik prowadzi prosto do furtki naszego domu."
@@ -477,7 +477,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "mechanik — ch w środku",
+      "example_hint": "mechanik — ch w środku wyrazu, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/mechanik.webp",
       "example_sentence": "Doświadczony mechanik naprawia popsuty samochód w dużym warsztacie."
@@ -513,7 +513,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "marchewka — ch w środku",
+      "example_hint": "marchewka — ch w środku wyrazu, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/marchewka.webp",
       "example_sentence": "Pomarańczowa marchewka leży obok innych świeżych warzyw na talerzu."
@@ -525,7 +525,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chałka — ch na początku",
+      "example_hint": "chałka — ch na początku, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/chalka.webp",
       "example_sentence": "Świeża słodka chałka z rodzynkami pachnie wanilią na kuchennym stole."
@@ -537,7 +537,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "chrust — ch na początku",
+      "example_hint": "chrust — ch na początku, do zapamiętania",
       "difficulty": 4,
       "image_asset": "assets/images/words/chrust.webp",
       "example_sentence": "Suchy chrust pali się szybko w kominku mojego dziadka wieczorem."
@@ -561,7 +561,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "muchomor — ch w środku",
+      "example_hint": "muchomor — ch w środku wyrazu, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/muchomor.webp",
       "example_sentence": "Czerwony muchomor z białymi kropkami rośnie pod wysokim brzozowym drzewem."
@@ -573,7 +573,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "macocha — ch w środku",
+      "example_hint": "macocha — ch w środku wyrazu, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/macocha.webp",
       "example_sentence": "Zła macocha z bajki o Kopciuszku miała dwie wredne córki."
@@ -585,7 +585,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "kuchenka — ch w środku",
+      "example_hint": "kuchenka — ch w środku wyrazu, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/kuchenka.webp",
       "example_sentence": "Biała gazowa kuchenka stoi w kuchni naszej ulubionej cioci."
@@ -597,7 +597,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "pochodnia — ch w środku",
+      "example_hint": "pochodnia — ch w środku wyrazu, do zapamiętania",
       "difficulty": 4,
       "image_asset": "assets/images/words/pochodnia.webp",
       "example_sentence": "Płonąca pochodnia oświetla wąski kamienny korytarz starego zamku."
@@ -609,7 +609,7 @@
       "correct": "ch",
       "distractor": "h",
       "rule": "ch_podstawowe",
-      "example_hint": "suchar — ch w środku",
+      "example_hint": "suchar — ch w środku wyrazu, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/suchar.webp",
       "example_sentence": "Twardy suchar leży obok szklanki zimnego mleka na śniadaniowym stole."
@@ -861,7 +861,7 @@
       "correct": "h",
       "distractor": "ch",
       "rule": "h_podstawowe",
-      "example_hint": "huśtawka — wyraz obcy, h",
+      "example_hint": "huśtawka — h na początku, do zapamiętania",
       "difficulty": 3,
       "image_asset": "assets/images/words/hustawka.webp",
       "example_sentence": "Kolorowa drewniana huśtawka stoi na placu zabaw naszego osiedla."

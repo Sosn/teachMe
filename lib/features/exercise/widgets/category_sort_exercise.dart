@@ -202,8 +202,10 @@ class _Bucket extends StatelessWidget {
                 : Colors.transparent;
         return AnimatedContainer(
           duration: const Duration(milliseconds: 160),
-          width: 140,
-          height: 140,
+          // 112×112 (-20% z 140). Ten sam powód co LetterButton: zgłoszenie
+          // koleżanki z Samsunga że worki wystają poza kafelek karty.
+          width: 112,
+          height: 112,
           decoration: BoxDecoration(
             shape: BoxShape.circle,
             boxShadow: [
@@ -226,13 +228,13 @@ class _Bucket extends StatelessWidget {
               // Litera jakby "wymalowana" na worku. FittedBox obsłuży
               // multi-char jak "si"/"ci".
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
+                padding: const EdgeInsets.symmetric(horizontal: 14),
                 child: FittedBox(
                   fit: BoxFit.scaleDown,
                   child: Text(
                     letter,
                     style: const TextStyle(
-                      fontSize: 44,
+                      fontSize: 36,
                       fontWeight: FontWeight.w800,
                       color: KidsColors.ink,
                       height: 1,

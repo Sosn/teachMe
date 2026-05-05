@@ -9,7 +9,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "śnieg — ś przed spółgłoską n",
+      "example_hint": "śnieg — ś przed n",
       "difficulty": 1,
       "image_asset": "assets/images/words/snieg.webp",
       "example_sentence": "Biały puszysty śnieg leży na dachach i drzewach."
@@ -32,8 +32,8 @@
       "mask": "pro_ba",
       "correct": "ś",
       "distractor": "si",
-      "rule": "sc_wyjatek",
-      "example_hint": "prośba — ś przed b (trudne miejsce)",
+      "rule": "sc_miekka",
+      "example_hint": "prośba — ś przed b",
       "difficulty": 2,
       "example_sentence": "Mała cicha prośba dziecka wzruszyła serce babci.",
       "image_asset": "assets/images/words/prosba.webp"
@@ -92,8 +92,8 @@
       "mask": "ko_ć",
       "correct": "ś",
       "distractor": "si",
-      "rule": "sc_wyjatek",
-      "example_hint": "kość — ś przed ć (trudne miejsce)",
+      "rule": "sc_miekka",
+      "example_hint": "kość — kończy się na -ść",
       "difficulty": 3,
       "image_asset": "assets/images/words/kosc.webp",
       "example_sentence": "Wesoły pies schował dużą kość pod zielonym krzakiem."
@@ -140,8 +140,8 @@
       "mask": "go_ć",
       "correct": "ś",
       "distractor": "si",
-      "rule": "sc_wyjatek",
-      "example_hint": "gość — ś przed ć (trudne miejsce)",
+      "rule": "sc_miekka",
+      "example_hint": "gość — kończy się na -ść",
       "difficulty": 3,
       "example_sentence": "Do naszego domu przyszedł niespodziewany gość z daleka.",
       "image_asset": "assets/images/words/gosc.webp"
@@ -152,8 +152,8 @@
       "mask": "ma_ć",
       "correct": "ś",
       "distractor": "si",
-      "rule": "sc_wyjatek",
-      "example_hint": "maść — ś przed ć (trudne miejsce)",
+      "rule": "sc_miekka",
+      "example_hint": "maść — kończy się na -ść",
       "difficulty": 3,
       "example_sentence": "Babcia kupiła dobrą maść na bolące kolano dziadka.",
       "image_asset": "assets/images/words/masc.webp"
@@ -164,8 +164,8 @@
       "mask": "li_ć",
       "correct": "ś",
       "distractor": "si",
-      "rule": "sc_wyjatek",
-      "example_hint": "liść — ś przed ć (trudne miejsce)",
+      "rule": "sc_miekka",
+      "example_hint": "liść — kończy się na -ść",
       "difficulty": 3,
       "example_sentence": "Żółty jesienny liść spadł cicho z wysokiego drzewa.",
       "image_asset": "assets/images/words/lisc.webp"
@@ -188,8 +188,8 @@
       "mask": "miło_ć",
       "correct": "ś",
       "distractor": "si",
-      "rule": "sc_wyjatek",
-      "example_hint": "miłość — ś przed ć (trudne miejsce)",
+      "rule": "sc_miekka",
+      "example_hint": "miłość — kończy się na -ść",
       "difficulty": 4,
       "example_sentence": "Wielka miłość mamy do wszystkich dzieci jest naprawdę niezachwiana.",
       "image_asset": "assets/images/words/milosc.webp"
@@ -333,7 +333,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "wiśnia — ś przed ń",
+      "example_hint": "wiśnia — ś przed n (gdzie „ni\" = miękkie ń)",
       "difficulty": 3,
       "image_asset": "assets/images/words/wisnia.webp",
       "example_sentence": "Soczysta czerwona wiśnia wisi na gałęzi starego ogrodowego drzewa."
@@ -345,7 +345,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ściana — ś przed c",
+      "example_hint": "ściana — ś przed c (gdzie „ci\" = miękkie ć)",
       "difficulty": 3,
       "image_asset": "assets/images/words/sciana.webp",
       "example_sentence": "Biała ściana naszego domu pokryta jest kolorowymi obrazami rodzinnymi."
@@ -357,7 +357,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ścierka — ś przed c",
+      "example_hint": "ścierka — ś przed c (gdzie „ci\" = miękkie ć)",
       "difficulty": 3,
       "image_asset": "assets/images/words/scierka.webp",
       "example_sentence": "Mokra ścierka leży zwinięta na metalowym blacie kuchennego zlewu."
@@ -393,7 +393,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "śliwka — ś przed l",
+      "example_hint": "śliwka — ś przed spółgłoską",
       "difficulty": 3,
       "image_asset": "assets/images/words/sliwka.webp",
       "example_sentence": "Fioletowa dojrzała śliwka wisi obok zielonego liścia na gałązce."
@@ -405,7 +405,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ślimak — ś przed l",
+      "example_hint": "ślimak — ś przed spółgłoską",
       "difficulty": 3,
       "image_asset": "assets/images/words/slimak.webp",
       "example_sentence": "Mały ślimak pełznie powoli po mokrym ogrodowym chodniku rano."
@@ -417,7 +417,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "śledź — ś przed l",
+      "example_hint": "śledź — ś przed spółgłoską",
       "difficulty": 3,
       "image_asset": "assets/images/words/sledz.webp",
       "example_sentence": "Srebrny świeży śledź leży na białym talerzu przed świętami."
@@ -453,7 +453,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ślad — ś przed l",
+      "example_hint": "ślad — ś przed spółgłoską",
       "difficulty": 3,
       "image_asset": "assets/images/words/slad.webp",
       "example_sentence": "Wyraźny ślad butów odcisnął się głęboko w miękkim mokrym piasku."
@@ -465,7 +465,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ślub — ś przed l",
+      "example_hint": "ślub — ś przed spółgłoską",
       "difficulty": 3,
       "image_asset": "assets/images/words/slub.webp",
       "example_sentence": "Uroczysty ślub odbędzie się dzisiaj w starym drewnianym kościele."
@@ -561,7 +561,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ślinka — ś przed l",
+      "example_hint": "ślinka — ś przed spółgłoską",
       "difficulty": 3,
       "image_asset": "assets/images/words/slinka.webp",
       "example_sentence": "Mała ślinka cieknie z buzi uśmiechniętego śpiącego niemowlęcia."
@@ -585,7 +585,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ścieg — ś przed c",
+      "example_hint": "ścieg — ś przed c (gdzie „ci\" = miękkie ć)",
       "difficulty": 4,
       "image_asset": "assets/images/words/scieg.webp",
       "example_sentence": "Równy ścieg biegnie prosto po białej tkaninie w rękach babci."
@@ -597,7 +597,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ściółka — ś przed c",
+      "example_hint": "ściółka — ś przed c (gdzie „ci\" = miękkie ć)",
       "difficulty": 4,
       "image_asset": "assets/images/words/sciolka.webp",
       "example_sentence": "Sucha brązowa ściółka pokrywa leśną ziemię pod wysokimi jodłami."
@@ -608,8 +608,8 @@
       "mask": "pier_cień",
       "correct": "ś",
       "distractor": "si",
-      "rule": "sc_wyjatek",
-      "example_hint": "pierścień — ś przed ć (trudne)",
+      "rule": "sc_miekka",
+      "example_hint": "pierścień — ś przed c (gdzie „ci\" = miękkie ć)",
       "difficulty": 4,
       "image_asset": "assets/images/words/pierscien.webp",
       "example_sentence": "Złoty pierścień błyszczy na palcu dłoni naszej nowej ciotki."
@@ -885,7 +885,7 @@
       "correct": "ź",
       "distractor": "zi",
       "rule": "sc_miekka",
-      "example_hint": "łaźnia — ź przed ń",
+      "example_hint": "łaźnia — ź przed n (gdzie „ni\" = miękkie ń)",
       "difficulty": 4,
       "image_asset": "assets/images/words/laznia.webp",
       "example_sentence": "Ciepła drewniana łaźnia stoi na brzegu spokojnego górskiego leśnego jeziora."
@@ -897,7 +897,7 @@
       "correct": "ź",
       "distractor": "zi",
       "rule": "sc_miekka",
-      "example_hint": "bliźniak — ź przed ń",
+      "example_hint": "bliźniak — ź przed n (gdzie „ni\" = miękkie ń)",
       "difficulty": 4,
       "image_asset": "assets/images/words/blizniak.webp",
       "example_sentence": "Mój mały bliźniak ma dokładnie takie same zielone oczy jak ja."

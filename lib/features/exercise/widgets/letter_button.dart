@@ -40,10 +40,13 @@ class LetterButton extends StatelessWidget {
           onTap: state == LetterButtonState.idle ? onPressed : null,
           borderRadius: BorderRadius.circular(28),
           child: SizedBox(
-            width: 128,
-            height: 128,
+            // 104×104 (-20% z poprzednich 128) — wciąż grubo nad min.
+            // dotyk Material 48dp; daje +24dp pionu na małych ekranach
+            // (iPhone X 375×812 miał overflow 0.62 px po starych 128).
+            width: 104,
+            height: 104,
             child: Center(
-              // FittedBox: "ś" pozostaje 72 px, multi-char "si"/"ci" sam
+              // FittedBox: "ś" pozostaje 58 px, multi-char "si"/"ci" sam
               // się przeskaluje żeby się zmieścić w kwadracie.
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 10),
@@ -52,7 +55,7 @@ class LetterButton extends StatelessWidget {
                   child: Text(
                     letter,
                     style: TextStyle(
-                      fontSize: 72,
+                      fontSize: 58,
                       fontWeight: FontWeight.w800,
                       color: colors.fg,
                       height: 1,
