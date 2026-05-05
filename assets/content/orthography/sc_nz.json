@@ -9,7 +9,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "śnieg — ś przed spółgłoską n",
+      "example_hint": "śnieg — ś przed n",
       "difficulty": 1,
       "image_asset": "assets/images/words/snieg.webp",
       "example_sentence": "Biały puszysty śnieg leży na dachach i drzewach."
@@ -393,7 +393,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "śliwka — ś przed l",
+      "example_hint": "śliwka — ś przed spółgłoską",
       "difficulty": 3,
       "image_asset": "assets/images/words/sliwka.webp",
       "example_sentence": "Fioletowa dojrzała śliwka wisi obok zielonego liścia na gałązce."
@@ -405,7 +405,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ślimak — ś przed l",
+      "example_hint": "ślimak — ś przed spółgłoską",
       "difficulty": 3,
       "image_asset": "assets/images/words/slimak.webp",
       "example_sentence": "Mały ślimak pełznie powoli po mokrym ogrodowym chodniku rano."
@@ -417,7 +417,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "śledź — ś przed l",
+      "example_hint": "śledź — ś przed spółgłoską",
       "difficulty": 3,
       "image_asset": "assets/images/words/sledz.webp",
       "example_sentence": "Srebrny świeży śledź leży na białym talerzu przed świętami."
@@ -453,7 +453,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ślad — ś przed l",
+      "example_hint": "ślad — ś przed spółgłoską",
       "difficulty": 3,
       "image_asset": "assets/images/words/slad.webp",
       "example_sentence": "Wyraźny ślad butów odcisnął się głęboko w miękkim mokrym piasku."
@@ -465,7 +465,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ślub — ś przed l",
+      "example_hint": "ślub — ś przed spółgłoską",
       "difficulty": 3,
       "image_asset": "assets/images/words/slub.webp",
       "example_sentence": "Uroczysty ślub odbędzie się dzisiaj w starym drewnianym kościele."
@@ -561,7 +561,7 @@
       "correct": "ś",
       "distractor": "si",
       "rule": "sc_miekka",
-      "example_hint": "ślinka — ś przed l",
+      "example_hint": "ślinka — ś przed spółgłoską",
       "difficulty": 3,
       "image_asset": "assets/images/words/slinka.webp",
       "example_sentence": "Mała ślinka cieknie z buzi uśmiechniętego śpiącego niemowlęcia."
