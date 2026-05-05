@@ -110,49 +110,59 @@ class _ActiveSession extends StatelessWidget {
 
     return Stack(
       children: [
-        Padding(
-          // Top: 16 zostawia miejsce nad kartą dla wystającej maskotki.
-          // Bottom: 50 — rezerwa pod system gesture bar (Android nav)
-          // żeby tekst regułki/feedback z dołu karty nie chował się
-          // za pasekiem gestowym (zgłoszone na MIUI / Samsung One UI).
-          padding: const EdgeInsets.fromLTRB(16, 16, 16, 50),
-          child: Center(
-            child: ConstrainedBox(
-              constraints: const BoxConstraints(maxWidth: 460),
-              child: LayoutBuilder(
-                builder: (context, constraints) {
-                  // Mascot proporcjonalnie do szerokości karty — referencja:
-                  // Xiaomi 12 (~411dp width → karta ~379dp → mascot ~129px),
-                  // co odpowiada obecnemu wyglądowi 132px. Cap na 160 dla
-                  // tabletów (karta ma maxWidth 460).
-                  final mascotSize =
-                      (constraints.maxWidth * 0.34).clamp(110.0, 160.0);
-                  // 70% maskotki nad krawędzią karty, 30% wchodzi w kartę.
-                  final cardTopOffset = mascotSize * 0.7;
-                  return Stack(
-                    clipBehavior: Clip.none, // mascot wystaje nad Stack
-                    children: [
-                      Padding(
-                        padding: EdgeInsets.only(top: cardTopOffset),
-                        child: _ExerciseCard(
-                          // Większy padding-top w karcie żeby polecenie nie
-                          // wchodziło pod łapki jeża (30% maskotki w karcie
-                          // = mascotSize * 0.3, plus mały odstęp).
-                          topPadding: mascotSize * 0.3 + 8,
-                          child: exerciseWidget,
-                        ),
-                      ),
-                      Positioned(
-                        top: 0,
-                        right: 12,
-                        child: MascotView(mood: mood, size: mascotSize),
-                      ),
-                    ],
-                  );
-                },
+        // Outer LayoutBuilder daje viewport karty; SingleChildScrollView
+        // wewnątrz scrolluje gdy zawartość większa od ekranu (duże
+        // systemowe czcionki, niskie urządzenia, splittowane okno).
+        // Padding bottom: 50 — strefa „nic poza tłem" pod system gesture
+        // bar (Samsung One UI / MIUI / iPhone home indicator). ConstrainedBox
+        // z minHeight = viewport pozwala Center centrować gdy treść mieści
+        // się na ekranie, a scrollować gdy nie.
+        LayoutBuilder(
+          builder: (context, viewport) {
+            return SingleChildScrollView(
+              padding: const EdgeInsets.fromLTRB(16, 16, 16, 50),
+              child: ConstrainedBox(
+                constraints: BoxConstraints(
+                  minHeight: viewport.maxHeight - 66, // top 16 + bottom 50
+                ),
+                child: Center(
+                  child: ConstrainedBox(
+                    constraints: const BoxConstraints(maxWidth: 460),
+                    child: LayoutBuilder(
+                      builder: (context, constraints) {
+                        // Mascot proporcjonalnie do szerokości karty.
+                        // Cap 160 dla tabletów (karta ma maxWidth 460).
+                        final mascotSize =
+                            (constraints.maxWidth * 0.34).clamp(110.0, 160.0);
+                        // 70% maskotki nad krawędzią karty, 30% wchodzi.
+                        final cardTopOffset = mascotSize * 0.7;
+                        return Stack(
+                          clipBehavior: Clip.none, // mascot wystaje
+                          children: [
+                            Padding(
+                              padding: EdgeInsets.only(top: cardTopOffset),
+                              child: _ExerciseCard(
+                                // Padding-top karty żeby polecenie nie
+                                // wchodziło pod łapki jeża (30% maskotki
+                                // w karcie = mascotSize * 0.3 + odstęp).
+                                topPadding: mascotSize * 0.3 + 8,
+                                child: exerciseWidget,
+                              ),
+                            ),
+                            Positioned(
+                              top: 0,
+                              right: 12,
+                              child: MascotView(mood: mood, size: mascotSize),
+                            ),
+                          ],
+                        );
+                      },
+                    ),
+                  ),
+                ),
               ),
-            ),
-          ),
+            );
+          },
         ),
         if (state.isAnswered)
           const Positioned(
