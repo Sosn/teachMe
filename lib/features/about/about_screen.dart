@@ -30,7 +30,7 @@ class _AboutScreenState extends State<AboutScreen> {
   static const String _blikNumber = '730795313';
   static const String _blikDisplay = '730 795 313';
   static const String _contactEmail = 'soswa.k@gmail.com';
-  static const String _appVersion = '0.5 (beta)';
+  static const String _appVersion = '0.5.2 (beta)';
 
   final TextEditingController _feedbackController = TextEditingController();
 
